@@ -1299,10 +1299,26 @@ span.sub-text {
 
     .gr-img {
 
-        width: 90%;
+        /* width: 90%; */
+        max-width: 100%;
+        height: auto;
     }
     .sticky{
         position: static;
+    }
+    .gogr-choose {
+        display: grid;
+    }
+    .gogr-choose-img {
+        display: flex;
+        justify-content: center;
+    }
+    .serv-head.ch-head {
+        display: block;
+    }
+    .gr-do-hd {
+        display: flex;
+        gap: 2rem;
     }
 }
 
@@ -1375,6 +1391,16 @@ span.sub-text {
     .flip-card-back {
         width: 100%;
     }
+    .serv-head h2 {
+        font-size: 26px;
+    }
+    .gr-do-hd {
+        display: flex;
+        gap: 17rem;
+    }
+    .gogr-choose-img img {
+        width: 100%;
+    }
 
 }
 
@@ -1412,6 +1438,17 @@ span.sub-text {
 
     .flip-card-front {
         width: 83%;
+    }
+    .gr-do-hd {
+        gap: 0rem;
+    }
+    .features-items-icon {
+        width: 25px;
+        height: 26px;
+        line-height: 28px;
+    }
+    .features-text h4 {
+        font-size: 17px;
     }
 
 }
