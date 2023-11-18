@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
 }
-html {
+
+/* html {
     width: 100%;
-}
+} */
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -115,7 +117,7 @@ nav {
 
 nav .navbar {
     height: 100%;
-    max-width: 1250px;
+    /* max-width: 1250px; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -581,7 +583,7 @@ input {
 /* section 3  */
 .home-section {
     margin: 120px 0rem;
-    padding: 0rem 2rem;
+    padding: 0rem 4rem;
 }
 
 .about-container {
@@ -956,7 +958,59 @@ span.sub-text {
     width: 98%;
 }
 
-/* section 6  */
+/* section 8  */
+.gogr-choose {
+    display: flex;
+    gap: 4.3rem;
+}
+
+.ch-head {
+    display: grid;
+    padding: 0;
+    gap: 1rem;
+    padding-bottom:34px ;
+
+}
+
+.ch-head .sub-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: start;
+}
+
+.ch-head h2 {
+    line-height: 46px;
+}
+
+.features-list {
+    display: grid;
+    gap: 2rem;
+}
+
+.features-items {
+    display: flex;
+    gap: 1rem;
+}
+.features-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.features-items-icon {
+    background-color: #504bb8;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+}
+.features-items:hover .features-items-icon {
+    background-color: #8cc540;
+}
+.features-items:hover .features-text{
+    color: #8cc540;
+}
 
 @media (max-width: 991px) {
     .empty {
@@ -1242,9 +1296,13 @@ span.sub-text {
     .flip-card-back {
         width: 97%;
     }
+
     .gr-img {
 
         width: 90%;
+    }
+    .sticky{
+        position: static;
     }
 }
 
