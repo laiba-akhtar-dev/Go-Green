@@ -1242,6 +1242,10 @@ span.sub-text {
     .flip-card-back {
         width: 97%;
     }
+    .gr-img {
+
+        width: 90%;
+    }
 }
 
 @media (max-width: 767px) {
