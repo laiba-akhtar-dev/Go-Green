@@ -1479,9 +1479,9 @@ span.sub-text {
         font-size: 19px;
     }
 
-    html {
+    /* html {
         width: 131%;
-    }
+    } */
 
     .flip-card-front {
         width: 80%;
@@ -1498,9 +1498,9 @@ span.sub-text {
         line-height: 38px;
     }
 
-    html {
+    /* html {
         width: 144%;
-    }
+    } */
 
     .flip-card-front {
         width: 81%;
