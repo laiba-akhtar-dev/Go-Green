@@ -1598,15 +1598,19 @@ h1 {
     .slide {
         width: 475px;
     }
+
     .gr-testimonials-content {
         padding-left: 1rem;
     }
+
     .gr-testimonials-content {
         padding-right: 0;
     }
+
     .testimonials-logo {
         text-align: none;
     }
+
     .gr-testi-in-container {
         /* display: grid; */
         /* grid-template-columns: 54% 46%; */
@@ -1701,14 +1705,17 @@ h1 {
     .gogr-choose.rp-choose {
         display: grid;
     }
+
     /* section 10  */
     .gr-testimonials-content {
         padding-right: 16px;
     }
+
     .gr-testi-in-container {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .slide {
         width: 735px;
     }
@@ -1768,9 +1775,11 @@ h1 {
     .slide {
         width: 543px;
     }
+
     .testimonials-logo {
         display: none;
     }
+
     .slide {
         margin-bottom: 2rem;
     }
@@ -1820,6 +1829,38 @@ h1 {
     .features-text h4 {
         font-size: 15px;
     }
+
+    .gr-testimonials-box {
+        gap: 1rem;
+    }
+
+    .wh-title h2 {
+        font-size: 20px;
+    }
+    /* section 10  */
+
+    .testimonials-para p {
+        padding-bottom: 1rem;
+    }
+
+    .quota img {
+        max-width: 55px;
+    }
+
+    .quota {
+        bottom: 25px;
+        right: 29px;
+    }
+
+    #slider .slide {
+        padding: 30px 15px 30px 15px;
+    }
+    .slide p {
+        font-size: 16px;
+    }
+    .slide {
+        width: 382px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -1838,5 +1879,9 @@ h1 {
 
     .flip-card-front {
         width: 81%;
+    }
+    /* section 10  */
+    .slide {
+        width: 343px;
     }
 }
