@@ -1691,7 +1691,7 @@ h1 {
 
     .gr-do-hd {
         display: flex;
-        gap: 17rem;
+        /* gap: 17rem; */
     }
 
     .gogr-choose-img img {
@@ -1702,13 +1702,16 @@ h1 {
         display: grid;
     }
     /* section 10  */
-    /* .gr-testimonials-content {
+    .gr-testimonials-content {
         padding-right: 16px;
     }
     .gr-testi-in-container {
         display: flex;
         flex-direction: column-reverse;
-    } */
+    }
+    .slide {
+        width: 735px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1761,6 +1764,16 @@ h1 {
         font-size: 17px;
     }
 
+    /* section 10  */
+    .slide {
+        width: 543px;
+    }
+    .testimonials-logo {
+        display: none;
+    }
+    .slide {
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 414px) {
