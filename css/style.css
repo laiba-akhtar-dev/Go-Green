@@ -965,6 +965,9 @@ span.sub-text {
     display: flex;
     gap: 4.3rem;
 }
+.gogr-choose-img img {
+    object-fit: contain;
+}
 
 .ch-head {
     display: grid;
@@ -1345,7 +1348,7 @@ h1 {
     nav .navbar .nav-links {
         position: fixed;
         top: 0;
-        right: -100%;
+        right: -106%;
         display: block;
         max-width: 335px;
         width: 100%;
@@ -1754,7 +1757,8 @@ h1 {
     }
 
     .flip-card-front {
-        width: 83%;
+        max-width: 81%;
+        height: none;
     }
 
     .gr-do-hd {
@@ -1796,7 +1800,7 @@ h1 {
 
     /* section 2 */
     .form-title h2 {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .custom-box {
@@ -1815,9 +1819,9 @@ h1 {
         width: 131%;
     } */
 
-    .flip-card-front {
+    /* .flip-card-front {
         width: 80%;
-    }
+    } */
 
     /* section 9   */
     .features-items-icon {
@@ -1837,6 +1841,7 @@ h1 {
     .wh-title h2 {
         font-size: 20px;
     }
+
     /* section 10  */
 
     .testimonials-para p {
@@ -1855,33 +1860,86 @@ h1 {
     #slider .slide {
         padding: 30px 15px 30px 15px;
     }
+
     .slide p {
         font-size: 16px;
     }
+
     .slide {
         width: 382px;
     }
+
+    .flip-card-front {
+        max-width: 306px;
+    }
 }
+
+@media (max-width: 430px) {
+    .flip-card-front {
+        /* max-width: 290px; */
+    }
+
+    .org-row {
+        padding: 0rem;
+    }
+
+    .home-section {
+        padding: 0rem 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .span {
+        top: 40px;
+        left: 37px;
+        font-size: 20px;
+    }
+
+    .pie-content {
+        padding: 18px 14px 5px 20px;
+    }
+
+    .custom-box {
+        right: 0px;
+    }
+}
+
 
 @media (max-width: 375px) {
     .green-header p {
         font-size: 11px;
     }
 
-    .green-color h3 {
-        font-size: 32px;
-        line-height: 38px;
+    .span {
+        top: 32px;
     }
 
-    /* html {
-        width: 144%;
-    } */
+    .pie-content {
+        padding: 10px 14px 0px 18px;
+    }
+
+    .green-color h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .con-box p {
+        font-size: 16px;
+    }
 
     .flip-card-front {
-        width: 81%;
+        max-width: 305px;
     }
+
     /* section 10  */
     .slide {
         width: 343px;
     }
+
+    .in-row {
+        padding: 50px 21px 50px 21px;
+    }
+
 }
+
+@media (max-width: 360px) {}
