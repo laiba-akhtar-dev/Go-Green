@@ -1942,4 +1942,11 @@ h1 {
 
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    .slide {
+        width: 328px;
+    }
+    .quota {
+        right: 15px;
+    }
+}
